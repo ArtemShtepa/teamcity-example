@@ -36,6 +36,7 @@ project {
 object FirstBuild : BuildType({
     name = "FirstBuild"
 
+    artifactRules = "target/*.jar"
     publishArtifacts = PublishMode.SUCCESSFUL
 
     vcs {
